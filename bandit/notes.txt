@@ -1,0 +1,25 @@
+Bandit 0:
+Logged into the SSH with 'sshpass -p bandit0 ssh bandit0@bandit.labs.overthewire.org -p 2220' 
+
+Bandit 1:
+'ls' to see the files, 'cat' to readme and get the file name
+
+Bandit 2:
+Dashed file name, required 'cat ./-' to read
+
+Bandit 3:
+Hidden file, just cat . "tab" "tab" until file appeared, 'ls -la' works better
+
+Bandit 4:
+When file to file to find only human-readable, or 'find -type f -exec file {} + | grep -i text'
+
+Bandit 5:
+ran the command with the requirements: 'find ~/inhere -type f -size 1033c ! -executable -exec file {} + | grep -i text'
+
+Bandit 6:
+ran the command with the requirements: 'find / -user bandit7 -group bandit6 -size 33c 2>/dev/null'
+
+Bandit 7:
+ran the command 'grep millionth data.txt' after some reading of 'man grep'
+
+Bandit 8:

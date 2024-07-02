@@ -1,0 +1,7 @@
+echo "bandit0" > passwords/0
+
+sshpass -p bandit0 ssh bandit0@bandit.labs.overthewire.org -p 2220
+
+or together
+
+echo "dfwvzFQi4mU0wfNbFOe9RoWskMLg7eEc" > passwords/8 && sshpass -p dfwvzFQi4mU0wfNbFOe9RoWskMLg7eEc ssh bandit8@bandit.labs.overthewire.org -p 2220
